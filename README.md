@@ -3,9 +3,9 @@
 正不断更新中，如有错误，希望大家指正。
 
 # 目录
-* [启动](#启动)
-## 启动
-首先，根据文档用create-react-native-app来新建工程；并且，用Expo客户端扫描二维码后运行app
+* [新建工程](#新建工程)
+## 新建工程
+首先，根据[文档](http://facebook.github.io/react-native/docs/getting-started.html)用create-react-native-app来新建工程；并且，用Expo客户端扫描二维码后运行app
 其次，扫描之后，可能会发现Expo客户端不能加载出app，并提示“Uncaught Error: Java.net,sockettimeoutException: failed to connect to after 10000ms”
 在网上查了一大圈，据说这是create-react-native-app的一个bug，解决方案如下：
 1、关闭windows防火墙
